@@ -1,0 +1,67 @@
+.header {
+  align-items: center;
+  padding: 9px 0px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 127px;
+  height: 27px;
+}
+
+.header-box {
+  width: 60%;
+  border-radius: 0.8rem;
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  border: 1px solid rgb(232, 232, 232);
+  align-items: center;
+  margin: 0px 10px;
+  padding: 15px 7px;
+  flex-wrap: nowrap;
+}
+
+.location-logo {
+  width: 20px;
+  height: 20px;
+  color: var(--bg-pink);
+}
+.search-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--bg-grey);
+  margin: 1px 6px;
+}
+.selectbox {
+  width: 100%;
+  height: 100%;
+  margin: 0px 10px 0px 5px;
+  padding: 1px 2px;
+  color: var(--bg-grey);
+  flex: 1;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.searchbox {
+  padding: 1px 2px;
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  font-weight: 100;
+}
+.selectbox-wrapper {
+  flex: 1;
+}
+.searchbox-wrapper {
+  flex: 2;
+}
+.link {
+  font-size: 18px;
+  padding: 8px;
+}
+.line {
+  font-size: large;
+  color: var(--bg-grey);
+}
