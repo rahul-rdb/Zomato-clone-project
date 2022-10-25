@@ -1,0 +1,97 @@
+.bg-inactive {
+  background-color: var(--bg-inactive);
+}
+.collections-wrapper {
+  padding: 15px 0px 40px;
+}
+.citem-heading {
+  font-size: 30px;
+  padding: 0px 0px 26px;
+  color: var(--bg-text);
+  font-weight: 500;
+}
+.citem-subheading {
+  font-size: 20px;
+  margin: 4px 0px 0px;
+  color: var(--bg-lighttext);
+}
+
+.cheader-wrapper {
+  margin-bottom: 10px;
+}
+
+.citem-image {
+  width: 250px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+}
+.citem-image:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+  border-radius: 8px;
+}
+
+.citem-name {
+  position: relative;
+  font-size: 18px;
+  padding: 0px 16px;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--bg-white);
+  font-weight: 500;
+  top: 260px;
+}
+
+.citem-places {
+  position: relative;
+  font-size: 14px;
+  padding: 0px 16px;
+  margin: 3px 0px 10px;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--bg-white);
+  font-weight: 500;
+  top: 260px;
+}
+
+.card-distance {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: max-content;
+  left: 270px;
+  bottom: 40px;
+  padding: 2px 4px 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: var(--bg-timetext);
+}
+
+.card-dining-address {
+  font-size: 14px;
+  color: var(--bg-grey);
+  padding: 0px 0px 4px;
+}
+.card-dining-location {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-dining-header{
+  font-size: 30px;
+  margin: 20px 0px 10px;
+  color: var(--bg-text);
+  font-weight: 500;
+}

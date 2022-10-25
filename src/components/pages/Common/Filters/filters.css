@@ -1,0 +1,26 @@
+.filter-wrapper{
+  padding: 20px 0px;
+}
+
+.filter-icon {
+  transform: scale(0.95);
+  color: var(--bg-grey);
+}
+.filter-title {
+  padding: 4px 2px;
+  font-size: 14px;
+  color: var(--bg-greytext);
+  background-color: var(--bg-white);
+}
+
+.filter-box {
+  border: 1px solid rgb(207, 207, 207);
+  color: rgb(156, 156, 156);
+  box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+  border-radius:6.5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  width: max-content;
+  height: 100%;
+  margin-right: 10px;
+}

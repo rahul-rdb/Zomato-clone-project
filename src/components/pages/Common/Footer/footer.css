@@ -1,0 +1,17 @@
+.footer-logo{
+    width: 127px;
+    height: 27px;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.footer-wrapper{
+    background-color: var(--bg-pink);
+}
+.footer-text{
+    color: var(--bg-text);
+    font-size: 25px;
+    font-weight:bolder;
+}

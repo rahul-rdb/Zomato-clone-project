@@ -1,7 +1,16 @@
-:root{
-    --bg-white:#ffffff;
-    --bg-text:#1C1C1C;
-    --bg-pink:#EF4F5F;
-    --bg-grey:#9C9C9C;
-    --bg-greytext:rgb(105, 105, 105);
+:root {
+  --bg-white: #ffffff;
+  --bg-text: #1c1c1c;
+  --bg-pink: #ef4f5f;
+  --bg-grey: #9c9c9c;
+  --bg-greytext: rgb(105, 105, 105);
+  --bg-lighttext: #363636;
+  --bg-inactive: #f8f8f8;
+  --bg-lightblue: rgb(37, 111, 239);
+  --bg-darkpink: rgb(217, 38, 98);
+  --bg-timetext: rgb(54, 54, 54);
+  --bg-green: rgb(38, 126, 62);
+  --bg-foodtype: rgb(105, 105, 105);
+  --bg-ordertext:rgb(130, 130, 130);
+  --bg-filtertext:#cfcfcf;
 }
