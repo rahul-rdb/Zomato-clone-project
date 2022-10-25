@@ -34,19 +34,6 @@ function DeliveryPage() {
     <CardScroll {...card} key={card.info.resId} />
   ));
 
-  // const tabs = tabData.map((tab) => {
-  //   return (
-  //     <div className="tab-wrapper max-width">
-  //       <div className="tab-box flex">
-  //         <div className="tab-container flex">
-  //           <div className="tab1">{tab.element1}</div>
-  //           <div className="tab2">{tab.element2}</div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // });
-
   return (
     <>
       <div className="max-width">
